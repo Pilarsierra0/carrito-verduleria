@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.min.css">
+    <title>VERDULERIA</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>Carrito de Compras - VERDULERIA -</h1>
+    <div class="products">
+        <div class="product">
+            <img src="imagenes/bananas.jpg" alt="BANANA">
+            <p>BANANA</p>
+            <button class="add-to-cart" data-price="180">Agregar al carrito</button>
+        </div>
+        <div class="product">
+            <img src="imagenes/manzana.jpg" alt="MANZANA">
+            <p>MANZANA</p>
+            <button class="add-to-cart" data-price="200">Agregar al carrito</button>
+        </div>
+        <div class="product">
+            <img src="imagenes/sandia.jpg" alt="SANDIA">
+            <p>SANDIA</p>
+            <button class="add-to-cart" data-price="530">Agregar al carrito</button>
+        </div>
+        <div class="product">
+            <img src="imagenes/tomate.jpg" alt="TOMATE">
+            <p>TOMATE</p>
+            <button class="add-to-cart" data-price="140">Agregar al carrito</button>
+        </div>
+        <div class="product">
+            <img src="imagenes/uva.jpg" alt="UVA">
+            <p>UVA</p>
+            <button class="add-to-cart" data-price="340">Agregar al carrito</button>
+        </div>
+      
+    </div>
+    <div class="cart">
+        <h2>Carrito</h2>
+        <ul id="cart-items"></ul>
+        <p>Total: $<span id="cart-total">0</span></p>
+        <button id="checkout">Finalizar Compra</button>
+      
+    </div>
+    <script src="carrito.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.min.js"></script>
+</body>
+</html>
